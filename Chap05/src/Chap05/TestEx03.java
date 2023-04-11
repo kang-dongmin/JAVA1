@@ -23,8 +23,6 @@ public class TestEx03 {
 		}
 		System.out.printf("\nsum : %d\n",sum);
 		
-		
-		
 		stdin.close();
 		
 	}

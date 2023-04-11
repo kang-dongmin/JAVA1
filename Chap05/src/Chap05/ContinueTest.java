@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ContinueTest {
 
 	public static void main(String[] args) {
-		System.out.println("1~00까지의 숫자 중 입력 받은 숫자의 배수의 합을 구하는 프로그램");
+		System.out.println("1~100까지의 숫자 중 입력 받은 숫자의 배수의 합을 구하는 프로그램");
 		Scanner stdin =new Scanner(System.in);
 		System.out.print("input number : ");
 		int num=stdin.nextInt();
@@ -22,7 +22,7 @@ public class ContinueTest {
 		while(i<=100)
 		{
 			if (i%num==0) {
-				sum+=i;
+				sum+=i;		//num의 배수만 더하기
 				i++;
 			} else {
 				i++;
@@ -30,6 +30,7 @@ public class ContinueTest {
 			}
 		}
 		
+		//출력
 		System.out.println("1~100 sum : "+sum);
 		stdin.close();
 
