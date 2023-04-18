@@ -47,8 +47,6 @@ public class ArrayTest01 {
 		System.out.println("배열의 합은 : "+sum+"입니다.");
 		System.out.println("배열의 평균은 : "+avg+"입니다.");
 		
-		
-		
 		scanner.close();
 	}
 
